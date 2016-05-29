@@ -1,0 +1,36 @@
+// document = es un selector
+function
+
+$(document).ready(function(){
+    $('#imagenPersona').attr('src','fotos/ANA.jpg');
+
+
+    $('#btnclick').click(function(){
+    	//obtener nombre
+    	var nombre =$('#inputNombre').val();
+    	var cadena = nombre.toUpperCase();
+    	alert("Ingresaste"+" "+cadena);
+
+    	
+    });
+});
+
+/////
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/uno.css">
+	<!--<link rel="shortcut icon" type="text/css" href="img/">-->
+
+</head>
+<body>
+
+		<div id="contenedorJuego">
+
+			<img src="" id="imagenPersona" alt="lab" src="fotos/Ana.jpg">
+			<input id="inputNombre" type="text"></input>
+			<button type="button" id="btnclick"> Enviar</button>
+
+		</div>

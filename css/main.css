@@ -1,0 +1,18 @@
+#imagenPersona {
+	width: 300px;
+	height: 200px;
+}
+#inputNombre {
+    display: inline-block;
+    padding: 1%;
+}
+#contenedorJuego {
+    background-color: #F7B617;
+    padding: 15%;
+}
+.text{
+	text-align: center;
+}
+#score{
+	background-color: #666;
+}
